@@ -21,7 +21,7 @@ interface Props {}
 export function Home(props: Props) {
   useInjectReducer({ key: sliceKey, reducer: homeReducer });
   useInjectSaga({ key: sliceKey, saga: homeSaga });
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const home = useSelector(selectHome);
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
