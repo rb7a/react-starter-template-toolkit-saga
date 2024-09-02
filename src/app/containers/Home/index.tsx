@@ -7,7 +7,7 @@
 import { Helmet } from "react-helmet-async";
 import { useDispatch, useSelector } from "react-redux";
 
-import { useTranslation } from "react-i18next";
+//import { useTranslation } from "react-i18next";
 import { useInjectReducer, useInjectSaga } from "store/redux-injectors";
 import { Features } from "./features";
 import { HeroComponent } from "./hero";
